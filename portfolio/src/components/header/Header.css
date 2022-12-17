@@ -1,0 +1,32 @@
+.header {
+    width:100%;
+    background-color: gray;
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+
+.header-left {
+    border: 1px solid #000;
+}
+
+.header-left span {
+    font-weight: bold;
+}
+
+.header-right ul {
+    width: 500px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
